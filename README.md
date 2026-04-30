@@ -23,6 +23,8 @@ The webcam captures hand movement, detects hand landmarks, and maps the movement
 - Easy keyboard exit using `q`
 - Beginner-friendly Python project
 
+  ![Flying Cursor Gesture Controls](steps.png)
+
 ## Installation
 
 1.  Make sure you have Python installed.

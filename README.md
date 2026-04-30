@@ -1,4 +1,4 @@
-# Flying Cursor
+# Flying Cursor - AI-Based Virtual Mouse using Hand Gesture Recognition
 
 Python-based virtual mouse project that allows users to control the mouse cursor using hand gestures captured through a webcam.
 This project uses real-time hand tracking to detect finger positions and convert gestures into mouse actions such as cursor movement and clicking. It is a beginner-friendly Computer Vision project and a practical example of Human-Computer Interaction.
@@ -40,6 +40,17 @@ The webcam captures hand movement, detects hand landmarks, and maps the movement
 2.  **Move**: Raise your index finger and move your hand.
 3.  **Click**: pinch your index finger and thumb together.
 4.  **Exit**: Press `q`.
+
+## How It Works
+
+1. The webcam captures live video.
+2. The hand tracking model detects hand landmarks.
+3. The system identifies the index finger position.
+4. The index finger movement is mapped to the screen coordinates.
+5. The cursor moves according to hand movement.
+6. When the index finger and thumb come close, a click action is performed.
+![Flying Cursor Gesture Controls](workflow_diagram.png)
+---
 
 ## Troubleshooting
 - Ensure your webcam is connected and allowed.

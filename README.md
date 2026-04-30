@@ -57,3 +57,4 @@ The webcam captures hand movement, detects hand landmarks, and maps the movement
 - Good lighting improves tracking accuracy.
 
 
+![Flying Cursor Gesture Controls](image.png)

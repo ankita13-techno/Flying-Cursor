@@ -49,7 +49,7 @@ The webcam captures hand movement, detects hand landmarks, and maps the movement
 4. The index finger movement is mapped to the screen coordinates.
 5. The cursor moves according to hand movement.
 6. When the index finger and thumb come close, a click action is performed.
-![Flying Cursor Gesture Controls](workflow_diagram.png)
+
 ---
 
 ## Troubleshooting

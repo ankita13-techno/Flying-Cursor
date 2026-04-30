@@ -44,3 +44,5 @@ The webcam captures hand movement, detects hand landmarks, and maps the movement
 ## Troubleshooting
 - Ensure your webcam is connected and allowed.
 - Good lighting improves tracking accuracy.
+
+

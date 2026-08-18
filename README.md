@@ -1,60 +1,39 @@
-# Flying Cursor - AI-Based Virtual Mouse using Hand Gesture Recognition
-
-Python-based virtual mouse project that allows users to control the mouse cursor using hand gestures captured through a webcam.
-This project uses real-time hand tracking to detect finger positions and convert gestures into mouse actions such as cursor movement and clicking. It is a beginner-friendly Computer Vision project and a practical example of Human-Computer Interaction.
-
----
-
-## Project Overview
-
-Traditional mouse control requires physical hardware. Flying Cursor removes that dependency by using hand gestures as input.
-
-The webcam captures hand movement, detects hand landmarks, and maps the movement of the index finger to the screen cursor. A pinch gesture between the index finger and thumb is used to perform a mouse click.
+<div align="center">
+  <h1>✨🖱️ Flying Cursor: AI-Powered Virtual Mouse 🖱️✨</h1>
+  <p><i>Transform your standard webcam into a magical, contactless input device!</i> 🪄</p>
+  <p><b>Developer:</b> Ankita Khetre | <b>Version:</b> 2.0 (Gestures & GUI) </p>
+</div>
 
 ---
 
-## Features
+## 🚀 What is it?
+The **Flying Cursor** is a cutting-edge software that lets you control your computer without ever touching a physical mouse! By leveraging lightning-fast Computer Vision, it tracks your hand in real-time and maps your natural movements straight to your screen. It’s built to be accessible, low-cost, and a total showcase of modern AI on consumer hardware!
 
-- Real-time hand gesture detection
-- Cursor movement using index finger
-- Mouse click using pinch gesture
-- Webcam-based hand tracking
-- Contactless computer control
-- Beginner-friendly Python project
+## ⚡ Mind-Blowing Features
+*   🖐️ **Jedi-Level Control:** Move your cursor with just your index finger[cite: 2].
+*   🤏 **Pinch-to-Click:** Execute left clicks instantly using a natural pinching motion[cite: 2].
+*   ✌️ **Advanced Gestures:** Raise your middle finger for a Right-Click, or use two fingers to Scroll seamlessly[cite: 2].
+*   🧈 **Buttery Smooth:** Powered by Custom Exponential Smoothing algorithms, saying goodbye to jitter and shaky hands forever[cite: 2]!
+*   🧠 **CPU Optimized:** Runs flawlessly without a dedicated GPU, all thanks to Google's MediaPipe framework[cite: 2].
 
+## 🛠️ The Tech Stack
+*   **Computer Vision:** `OpenCV` (Real-time frame processing)[cite: 2]
+*   **Machine Learning:** `MediaPipe` (3D Hand Landmark detection)[cite: 2]
+*   **Automation:** `PyAutoGUI` (System-level cursor control)[cite: 2]
+*   **Math Engine:** Linear Interpolation & Euclidean Distance mapping[cite: 2]
 
-## Installation
+## 💻 Quick Start Guide
+Ready to control your screen like magic? Make sure you have **Python 3.8+** installed[cite: 2]! 
 
-1.  Make sure you have Python installed.
-2.  Install dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
+```bash
+# 1. Clone the magic
+git clone [https://github.com/yourusername/flying-cursor.git](https://github.com/yourusername/flying-cursor.git)
+cd flying-cursor
 
-## Usage
+# 2. Install dependencies (Note: MediaPipe is pinned to 0.10.9 for stability!)
+pip install opencv-python mediapipe==0.10.9 pyautogui numpy
 
-1.  Run the application:
-    ```bash
-    python main.py
-    ```
-2.  **Move**: Raise your index finger and move your hand.
-3.  **Click**: pinch your index finger and thumb together.
-4.  **Exit**: Press `q`.
-
-## How It Works
-
-1. The webcam captures live video.
-2. The hand tracking model detects hand landmarks.
-3. The system identifies the index finger position.
-4. The index finger movement is mapped to the screen coordinates.
-5. The cursor moves according to hand movement.
-6. When the index finger and thumb come close, a click action is performed.
-
----
-
-## Troubleshooting
-- Ensure your webcam is connected and allowed.
-- Good lighting improves tracking accuracy.
-
+# 3. Launch the virtual mouse
+python main.py
 
 ![Flying Cursor Gesture Controls](image.png)

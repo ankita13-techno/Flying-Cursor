@@ -20,10 +20,8 @@ The webcam captures hand movement, detects hand landmarks, and maps the movement
 - Mouse click using pinch gesture
 - Webcam-based hand tracking
 - Contactless computer control
-- Easy keyboard exit using `q`
 - Beginner-friendly Python project
 
-  ![Flying Cursor Gesture Controls](steps.png)
 
 ## Installation
 

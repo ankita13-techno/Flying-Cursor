@@ -25,6 +25,8 @@ The **Flying Cursor** is a cutting-edge software that lets you control your comp
 ## 💻 Quick Start Guide
 Ready to control your screen like magic? Make sure you have **Python 3.8+** installed[cite: 2]! 
 
+![Flying Cursor Gesture Controls](image.png)
+
 ```bash
 # 1. Clone the magic
 git clone [https://github.com/yourusername/flying-cursor.git](https://github.com/yourusername/flying-cursor.git)
@@ -36,4 +38,6 @@ pip install opencv-python mediapipe==0.10.9 pyautogui numpy
 # 3. Launch the virtual mouse
 python main.py
 
-![Flying Cursor Gesture Controls](image.png)
+
+
+
